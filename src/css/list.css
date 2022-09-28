@@ -1,0 +1,18 @@
+
+.listagem {
+    max-width: 200px;
+}
+
+.listagem .pokemon {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(102, 101, 101);
+    color: aliceblue;
+    margin-bottom: 10px;
+    padding: 0px 5px;
+}
+
+.listagem .pokemon img {
+    width: 30%;
+    border-radius: 50%;
+}

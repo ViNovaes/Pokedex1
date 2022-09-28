@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+
+/* arrumando o alinhamento das imagens e dos textos em relação ao body */
+body{
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(199, 199, 199);
+}
+
+.pokedex {
+
+    display: flex;
+    gap: 30px;
+    padding: 15px;
+}

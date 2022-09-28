@@ -1,0 +1,122 @@
+
+
+
+.pokemon-card{
+    /* edicão dos cards de cada pokemon como: tamanho, bordar e sombreamento */
+    box-shadow: 0px 0px 17px 2px rgba(0,0,0,0.52);
+    border-radius: 15px;
+    display: none;
+}
+
+.pokemon-card .card-top{
+    /* organização da margem entre o nomes e niveis do pokemon e a margem */
+    padding: 30px 40px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.pokemon-card .name {
+    /* tamanho dos nomes dos pokemons  */
+    margin-bottom: 5px;
+}
+
+.pokemon-card .type {
+/* é a cor do tipo do pokemon, que tem uma linha banca dentro, arrumando esses detalhes, colocando sombreamento e editando o tamanho  */
+    background-color: white;
+    font-size: 13px;
+    border-radius: 10px;
+    padding: 5px 14px;
+    -webkit-box-shadow: inset 0px 0px 11px 0px #000000; 
+    box-shadow:  0px 0px 3px 0px #000000;
+}
+
+.pokemon-card .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokemon-card .card-img{
+    width: 350px;
+    height: 350px;
+}
+
+.pokemon-card img {
+    max-height: 100%;
+
+}
+
+.pokemon-card .card-info{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.pokemon-card .card-info h3{
+
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6b727a;
+}
+
+.pokemon-card .card-info .status .ability{
+    padding: 0px;
+    width: 180px;
+    margin-bottom: 5px;
+    font-size:  15px;
+}
+
+.pokemon-card .card-info .status ul li{
+    border-bottom: 1px solid #6b727a;
+    padding: 0px 0px 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.pokemon-card.open{
+    display: block;
+
+}
+
+.electri-type{
+    background-color: #f6e652;
+}
+
+.grass-type{
+    background-color: #518f92;
+}
+
+.fire-type{
+    background-color: #e5893e;
+}
+
+.water-type{
+    background-color: #8bc5cd;
+}
+
+.dark-type{
+    background-color: #6a319c;
+}
+
+.dragon-type{
+    background-color: #D5984D;
+}
+
+
+
+
+/* pikachu #f6e652
+
+Bulbasaur #518f92
+
+Charmander #e5893e
+
+Squirtle #8bc5cd
+
+Gengar #6a319c ou #837b9c
+
+dragonite #837b9c */

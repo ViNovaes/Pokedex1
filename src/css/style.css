@@ -1,0 +1,11 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ul{
+    /* remove o ponto que fica na frente da lista, deixando mais limpo */
+    list-style-type: none;
+}
+
